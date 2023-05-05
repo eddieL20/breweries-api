@@ -1,0 +1,48 @@
+
+.breweries-container{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  
+}
+
+.name{
+  padding-bottom: 20px;
+  font-size:large;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(171, 171, 254);
+}
+
+li{
+  list-style-type: none;
+  color: white;
+}
+
+ul{
+  top: 200px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: #02530d8b;
+  width:33vw;
+  padding:30px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.column{
+  margin: 100px;
+}
+
+.city-header{
+  text-align: center;
+  color:#daffdb;
+  font-family: 'Press Start 2P', cursive;
+  clear:left;
+}
+
+span{
+  font-weight: 700;
+  color:rgb(163, 209, 117);
+}
+
